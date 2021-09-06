@@ -49,14 +49,6 @@ class App extends Component {
       tipResult: (newTotal - totalInput).toFixed(2),
       totalResult: newTotal.toFixed(2),
     })
-    // console.log(
-    //   totalInput,
-    //   tipPercentagePlusOne,
-    //   newBill,
-    //   newBill.toFixed(2),
-    //   newTotal.toFixed(2),
-    //   newTotal - totalInput,
-    // )
   }
 
   render() {
